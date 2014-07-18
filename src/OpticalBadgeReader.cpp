@@ -7,7 +7,6 @@ using namespace cv;
 
 Mat blueFilter(const Mat& src)
 {
-  //
   assert(src.type() == CV_8UC3);
   Mat hsv;
   cvtColor(src, hsv, COLOR_BGR2HSV);
